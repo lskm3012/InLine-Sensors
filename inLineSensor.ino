@@ -1,3 +1,9 @@
+// This code is written for the TI MSP432 microcontroller
+// This code must be run using the Energia IDE and must be connected with microcontroller and the physical construction of the circuit
+// This code can also run with an arduino, but the pin numbers would have to be adjusted accordingly
+
+// The code only accounts for one IR led sensor and two buttons to keep track of the number of people in line
+// It can be modified to work only using two sensors, keeping track of people entering and exiting the line
 
 const int enterSensor = 37; // digital read - enter sensor/button
 const int exitSensor = 39; // digital read - exit sensor/button
