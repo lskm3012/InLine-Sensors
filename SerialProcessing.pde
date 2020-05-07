@@ -1,5 +1,8 @@
-import P5ireBase.library.*;
-import processing.serial.*;
+// This code must be run using the Processing IDE. 
+// It must be run simultaneously with the .ino code using the Energia IDE
+
+import P5ireBase.library.*; // This library needs to be downloaded separately
+import processing.serial.*; // This library needs to be
 
 Serial energiaSerial; // create local serial object from serial library
 P5ireBase fireTimeData; // firebase object - for time data
