@@ -1,3 +1,5 @@
+% This code must be run using MATLAB
+
 while(1)
     
     ArrivalData_url = 'https://inlinesensor.firebaseio.com/arrival/.json';
