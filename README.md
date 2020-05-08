@@ -1,4 +1,5 @@
-# InLine Sensors
+# Line Tracking
+
 This project uses sensors to keep track of the number of people in any line. 
 It also collects data about the time each customer spends in the line at any store, and uses the data for basic statistical analysis. 
 The code updates data to Google Firebase to update changes in real time. 
