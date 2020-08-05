@@ -40,9 +40,9 @@ void setup()
   energiaSerial = new Serial(this, energiaPort, 9600);
   
   // initialize firebase
-  fireTimeData = new P5ireBase(this, "https://inlinesensor.firebaseio.com/duration");// time spent 
-  fireAppData = new P5ireBase(this, "https://inline-c2e5b.firebaseio.com/"); // app updating
-  fireArrivalData = new P5ireBase(this, "https://inlinesensor.firebaseio.com/arrival");// time arrived
+  fireTimeData = new P5ireBase(this, "INSERT FIREBASE REALTIME DATABASE URL");// time spent 
+  fireAppData = new P5ireBase(this, "INSERT FIREBASE REALTIME DATABASE URL"); // app updating
+  fireArrivalData = new P5ireBase(this, "INSERT FIREBASE REALTIME DATABASE URL");// time arrived
   
   resetter(fireTimeData, fireAppData, fireArrivalData); // reset all firebase data
   
